@@ -38,6 +38,6 @@ public class Military extends Tech {
         return "Military{" +
                 "useArea='" + useArea + '\'' +
                 ", harmness='" + harmness + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

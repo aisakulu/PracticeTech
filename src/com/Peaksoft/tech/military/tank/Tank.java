@@ -28,6 +28,6 @@ public class Tank extends Military {
     public String toString() {
         return "Tank{" +
                 "tankType='" + tankType + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

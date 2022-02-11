@@ -58,6 +58,6 @@ public class Vehicle extends Tech {
                 ", motorType=" + motorType +
                 ", color='" + color + '\'' +
                 ", steeringType='" + steeringType + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

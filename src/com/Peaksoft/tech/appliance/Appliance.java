@@ -37,6 +37,6 @@ public class Appliance extends Tech {
         return "Appliance{" +
                 "voltage=" + voltage +
                 ", useElectric=" + useElectric +
-                '}';
+                "} " + super.toString();
     }
 }

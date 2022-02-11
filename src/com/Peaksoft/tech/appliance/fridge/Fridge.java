@@ -38,6 +38,6 @@ public class Fridge extends Appliance {
         return "Fridge{" +
                 "doorCount='" + doorCount + '\'' +
                 ", caryable=" + caryable +
-                '}';
+                "} " + super.toString();
     }
 }

@@ -49,6 +49,6 @@ public class Guns extends Military {
                 "atackPerSecond=" + atackPerSecond +
                 ", atackArea=" + atackArea +
                 ", soundLevel='" + soundLevel + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

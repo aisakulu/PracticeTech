@@ -50,6 +50,6 @@ public class Car extends Vehicle {
                 "bodyType=" + Arrays.toString(bodyType) +
                 ", karobka=" + Arrays.toString(karobka) +
                 ", fuelType='" + fuelType + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

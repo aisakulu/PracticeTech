@@ -48,6 +48,6 @@ public class Truck extends Vehicle {
                 "cartType='" + cartType + '\'' +
                 ", wheelSize='" + wheelSize + '\'' +
                 ", motorPower='" + motorPower + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }
